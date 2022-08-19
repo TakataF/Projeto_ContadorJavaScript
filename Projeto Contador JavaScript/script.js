@@ -5,3 +5,10 @@ function addclick(){
     clicker += 1;
     document.getElementById("clicker").innerHTML=`clicks:${clicker}`;
 }
+function addreset(){
+    clicker = 0;
+    reset += 1;
+    document.getElementById("clicker").innerHTML=`clicks:${clicker}`;
+    document.getElementById("reset").innerHTML=`Reset:${reset}`;
+
+}
